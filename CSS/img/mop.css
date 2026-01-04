@@ -248,7 +248,76 @@ h4{
   color: #3a6cf4;
   margin: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+
+  /* نسيطر على المسافات */
+  header {
+    padding: 10px 20px;
+  }
+
+  section {
+    padding: 100px 20px;
+    height: auto;
+  }
+
+  /* main section */
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* النص */
+  div h2,
+  div h3 {
+    position: static;
+    top: 0;
+  }
+
+  /* الصورة */
+  div img {
+    position: static;
+    width: 260px;
+    height: auto;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  /* الزر */
+  .main-btn {
+    position: static;
+    margin: 20px auto 0;
+    display: inline-block;
+  }
+
+  /* السوشيال */
+  .social {
+    position: static;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* الكروت */
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  /* المشاريع */
+  .projects .content {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
+/* @media (max-width: 768px) {
 
   header {
     padding: 10px 30px;
@@ -364,5 +433,5 @@ h4{
     flex-direction: column;
     height: auto;
   }
-}
+} */
 
